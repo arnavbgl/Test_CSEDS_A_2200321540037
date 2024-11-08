@@ -1,0 +1,49 @@
+body {
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+#mode {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mode:hover {
+    background-color: #555;
+}
+#welcomeMessage{text-align: center;}
+
+body{background-color: bisque;}
+
+.logout-btn {
+    background-color: #dc3545; /* Red background color */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.logout-btn:hover {
+    background-color: red; /* Darker red on hover */
+}
+
